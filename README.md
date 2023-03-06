@@ -11,6 +11,7 @@ you can find the Repository at [Link Text](https://github.com/rethissunstar/chal
 -HTML through VS Code
 -CSS Stylesheet
 -images are within the repository
+-code originally cloned from https://utoronto.bootcampcontent.com/utoronto-bootcamp/UTOR-VIRT-FSF-PT-02-2023-U-LOLC/-/tree/main/08-Project-1-Contd/02-Challenge - 
 
 ## 05 Author
 **Christopher Rodrigues**
@@ -19,3 +20,4 @@ you can find the Repository at [Link Text](https://github.com/rethissunstar/chal
 
 [def]: rethissunstar@gmail.com
 
+Original code Author a-nyx
