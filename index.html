@@ -8,14 +8,15 @@
 </head>
 
 <body>
-    <!--div class to be changed to type header - Header also has to be referenced in CSS-->
-    <div class="header">
+    <!--div class to be changed to type header - Header also has to be referenced in CSS  COMPLETED-->
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!--Div type to be changed to section note that the class and ID would have to be specified in the CSS
-        note the CSS may have tagged the li which would apply across the body and not just this instance.-->
+        note the CSS may have tagged the li which would apply across the body and not just this instance.  NOT NEEDED assitive picked up on header-->
         <div>
             <ul>
                 <li>
+                    <!--Internal link is not linking to place missing reference?  COMPLETED-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -26,7 +27,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
     <!-- SEMANTIC - this can be changed to section with it's class specified
     NOTE - the base image is not seated here and would not be read by the assisted reader.  The image for the hero section is 
     placed in CSS  We may have to move into the HTML to have the reader acknowledge it.-->
@@ -34,7 +35,7 @@
     <!--SEMANTIC - Change to section -->
     <div class="content">
         <!--SEMANTIC - Change to section -->
-        <div class="search-engine-optimization">
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <!--img requires alt-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
