@@ -51,10 +51,10 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 200px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    margin-bottom: 825px; /*changed to reflect movement of background from CSS to HTML*/
+    position: relative; /* added to get pic attribute standing in the heirarchy*/
     background-size: cover;
     background-position: center;
 }
@@ -77,13 +77,16 @@ p {
 
 .benefits {
     margin-right: 20px;
+    
     padding: 20px;
     clear: both;
-    float: right;
+    float: right; 
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
+    
 }
 
 .benefit-lead {
@@ -141,6 +144,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: static;/* added to get box attribute standing in the heirarchy*/
 }
 
 .online-reputation-management {
@@ -150,6 +154,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
+    position: static;/* added to get box attribute standing in the heirarchy*/
 }
 
 .social-media-marketing {
@@ -159,6 +165,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: static;/* added to get box attribute standing in the heirarchy*/
 }
 
 .search-engine-optimization img {
